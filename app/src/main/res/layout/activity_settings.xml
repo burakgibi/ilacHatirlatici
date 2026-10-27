@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="67dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@color/skyBlue">
+
+    <!-- Başlık -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uygulama Ayarları"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/darkBlue"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Ses Seviyesi Başlığı ve Yüzdesi -->
+    <TextView
+        android:id="@+id/tvVolumeLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ses Seviyesi: %50"
+        android:textSize="16sp"
+        android:textColor="@color/darkBlue"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Manuel Ses Seviyesi Kaydırıcısı (SeekBar) -->
+    <SeekBar
+        android:id="@+id/seekBarVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Ayarları Kaydet Butonu -->
+    <Button
+        android:id="@+id/btnSaveSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/darkBlue"
+        android:text="Ayarları Kaydet"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/versionCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beta 0.3.2"
+        android:textColor="@color/darkBlue"
+        android:textStyle="italic"
+        android:textSize="13dp"/>
+
+</LinearLayout>
