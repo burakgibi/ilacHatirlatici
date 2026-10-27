@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Language-Java-orange" alt="Language">
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
 </p>
-<br>
+
 Android platformu için geliştirilmiş, kullanıcıların ilaç saatlerini kolayca yönetmesini, özel alarm sesleri ve manuel ses seviyesi ayarlayabilmesini sağlayan modern bir hatırlatıcı uygulaması.
 
 ---
